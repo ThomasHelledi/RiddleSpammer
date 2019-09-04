@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddleSpammer", "RiddleSpammer\RiddleSpammer.csproj", "{C30AF612-3997-496B-9E6D-17105B1480EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C30AF612-3997-496B-9E6D-17105B1480EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30AF612-3997-496B-9E6D-17105B1480EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30AF612-3997-496B-9E6D-17105B1480EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30AF612-3997-496B-9E6D-17105B1480EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F867B2A-1790-45EF-B042-49FA522BDFBE}
+	EndGlobalSection
+EndGlobal

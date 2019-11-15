@@ -11,7 +11,7 @@ namespace RiddleSpammer
             List<RiddleClient> clients = new List<RiddleClient>();
             for (int i = 0; i < 5; i++)
             {
-                var client = new RiddleClient(207024, 5);
+                var client = new RiddleClient(216767, 1);
                 client.Start();
                 clients.Add(client);
             }

@@ -69,17 +69,17 @@ namespace RiddleSpammer
 
             result.EnsureSuccessStatusCode();
 
-            content = new StringContent(@"{""riddleId"":" + RiddleId + @",""uid"":""" + RiddleId + @".start"",""type"":""start""}", Encoding.UTF8, "application/json");
+            content = new StringContent(@"{""riddleId"":" + RiddleId + @",""data"":""" + RiddleId + @".start"",""event"":""start""}", Encoding.UTF8, "application/json");
             result = await httpClient.PostAsync(URL, content);
 
             result.EnsureSuccessStatusCode();
 
-            content = new StringContent(@"{""riddleId"":" + RiddleId + @",""uid"":""" + RiddleId + @".finish"",""type"":""finish""}", Encoding.UTF8, "application/json");
+            content = new StringContent(@"{""riddleId"":" + RiddleId + @",""data"":""" + RiddleId + @".finish"",""event"":""finish""}", Encoding.UTF8, "application/json");
             result = await httpClient.PostAsync(URL, content);
 
             result.EnsureSuccessStatusCode();
 
-            content = new StringContent(@"{""riddleId"":" + RiddleId + @",""uid"":""" + RiddleId + @"." + OptionId + @""",""type"":""answer""}", Encoding.UTF8, "application/json");
+            content = new StringContent(@"{""riddleId"":" + RiddleId + @",""data"":""" + RiddleId + @"." + OptionId + @""",""event"":""answer""}", Encoding.UTF8, "application/json");
             result = await httpClient.PostAsync(URL, content);
 
             result.EnsureSuccessStatusCode();
